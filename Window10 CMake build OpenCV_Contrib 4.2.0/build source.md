@@ -4,15 +4,15 @@
 
 1、打开CMake gui软件，配置路径
 
-![](.\1.PNG)
+![](https://github.com/njit-77/Blog/blob/master/Window10 CMake build OpenCV_Contrib 4.2.0/1.PNG)
 
 2、点击 Configure，设置如下
 
-![](.\2.PNG)
+![](https://github.com/njit-77/Blog/blob/master/Window10 CMake build OpenCV_Contrib 4.2.0/2.PNG)
 
 3、CMake界面显示红色，
 
-![](.\3.PNG)
+![](https://github.com/njit-77/Blog/blob/master/Window10 CMake build OpenCV_Contrib 4.2.0/3.PNG)
 
 再次点击Configure，直至CMake界面显示白色
 
