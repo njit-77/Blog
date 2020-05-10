@@ -8,19 +8,19 @@
 
 2、点击 Configure，设置如下
 
-![](https://github.com/njit-77/Blog/blob/master/Window10 CMake build OpenCV_Contrib 4.2.0/2.PNG)
+![](https://github.com/njit-77/Blog/blob/master/Window10%20CMake%20build%20OpenCV_Contrib%204.2.0/2.PNG)
 
 3、CMake界面显示红色，
 
-![](https://github.com/njit-77/Blog/blob/master/Window10 CMake build OpenCV_Contrib 4.2.0/3.PNG)
+![](https://github.com/njit-77/Blog/blob/master/Window10%20CMake%20build%20OpenCV_Contrib%204.2.0/3.PNG)
 
 再次点击Configure，直至CMake界面显示白色
 
-![](.\4.PNG)
+![](https://github.com/njit-77/Blog/blob/master/Window10%20CMake%20build%20OpenCV_Contrib%204.2.0/4.PNG)
 
 4、CMake界面找到 OPENCV_EXTRA_MODULES_PATH，设置opencv_contrib-4.2.0所在目录
 
-![](.\5.PNG)
+![](https://github.com/njit-77/Blog/blob/master/Window10%20CMake%20build%20OpenCV_Contrib%204.2.0/5.PNG)
 
 再次点击Configure,报错。查看提示信息,发现一些文件无法下载。
 
@@ -171,4 +171,4 @@ https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0a
 
 打开OpenCV.sln，选择CMakeTargets里面INSTALL， 生成。
 
-![](.\6.PNG)
+![](https://github.com/njit-77/Blog/blob/master/Window10%20CMake%20build%20OpenCV_Contrib%204.2.0/6.PNG)
