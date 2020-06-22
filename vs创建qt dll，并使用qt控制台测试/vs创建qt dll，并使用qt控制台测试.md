@@ -4,17 +4,17 @@
 
 1、vs新建，创建Qt Class Library
 
-![1](https://github.com/njit-77/Blog/blob/master/vs创建qt dll，并使用qt控制台测试/1.PNG)
+![1](https://github.com/njit-77/Blog/blob/master/vs%E5%88%9B%E5%BB%BAqt%20dll%EF%BC%8C%E5%B9%B6%E4%BD%BF%E7%94%A8qt%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%B5%8B%E8%AF%95/1.PNG))
 
 #### 编写界面
 
 1、Qt Creator创建 一个Main Window文件，界面编写如下：
 
-![2](https://github.com/njit-77/Blog/blob/master/vs创建qt dll，并使用qt控制台测试/2.PNG)
+![2](https://github.com/njit-77/Blog/blob/master/vs%E5%88%9B%E5%BB%BAqt%20dll%EF%BC%8C%E5%B9%B6%E4%BD%BF%E7%94%A8qt%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%B5%8B%E8%AF%95/2.PNG)
 
 2、编译项目，添加MainWindow.h/.cpp文件、ui_mainwindow.h文件添加到vs项目下；
 
-![3](https://github.com/njit-77/Blog/blob/master/vs创建qt dll，并使用qt控制台测试/3.PNG)
+![3](https://github.com/njit-77/Blog/blob/master/vs%E5%88%9B%E5%BB%BAqt%20dll%EF%BC%8C%E5%B9%B6%E4%BD%BF%E7%94%A8qt%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%B5%8B%E8%AF%95/3.PNG)
 
 #### 配置环境
 
@@ -32,17 +32,17 @@
 右键属性 -> Qt Project Settings -> Qt Modules 添加  gui;widgets
 ```
 
-![4](https://github.com/njit-77/Blog/blob/master/vs创建qt dll，并使用qt控制台测试/4.PNG)
+![4](https://github.com/njit-77/Blog/blob/master/vs%E5%88%9B%E5%BB%BAqt%20dll%EF%BC%8C%E5%B9%B6%E4%BD%BF%E7%94%A8qt%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%B5%8B%E8%AF%95/4.PNG)
 
 #### 生成
 
 1、生成项目，无报错。
 
-![5](https://github.com/njit-77/Blog/blob/master/vs创建qt dll，并使用qt控制台测试/5.PNG)
+![5](https://github.com/njit-77/Blog/blob/master/vs%E5%88%9B%E5%BB%BAqt%20dll%EF%BC%8C%E5%B9%B6%E4%BD%BF%E7%94%A8qt%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%B5%8B%E8%AF%95/5.PNG)
 
 ### 创建 Qt 控制台程序
 
-![6](https://github.com/njit-77/Blog/blob/master/vs创建qt dll，并使用qt控制台测试/6.PNG)
+![6](https://github.com/njit-77/Blog/blob/master/vs%E5%88%9B%E5%BB%BAqt%20dll%EF%BC%8C%E5%B9%B6%E4%BD%BF%E7%94%A8qt%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%B5%8B%E8%AF%95/6.PNG)
 
 #### 配置环境
 
@@ -124,4 +124,4 @@ int main(int argc, char *argv[])
 
 3、编译运行，效果图
 
-![7](https://github.com/njit-77/Blog/blob/master/vs创建qt dll，并使用qt控制台测试/7.PNG)
+![7](https://github.com/njit-77/Blog/blob/master/vs%E5%88%9B%E5%BB%BAqt%20dll%EF%BC%8C%E5%B9%B6%E4%BD%BF%E7%94%A8qt%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%B5%8B%E8%AF%95/7.PNG)
